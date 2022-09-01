@@ -9,7 +9,7 @@ describe Character do
     urkel = Character.create(name: "Steve Urkel", catchphrase: "Did I do that?")
     expect(urkel.catchphrase).to eq("Did I do that?")
   end
-
+     
   describe "#actor" do
     it "returns the actor that the character belongs to" do
       danny_pudi = Actor.create(first_name: "Danny", last_name: "Pudi")

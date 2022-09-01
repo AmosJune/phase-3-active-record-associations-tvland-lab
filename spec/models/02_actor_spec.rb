@@ -1,5 +1,5 @@
 require "pry"
-
+      
 describe Actor do
   let(:emilia) { Actor.first }
 
